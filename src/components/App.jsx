@@ -3,6 +3,7 @@ import { Statistics } from './statistics/Statistics'
 import {FriendList} from './friends/Friends'
 import { TransactionHistory } from './transaction/Transaction'
 
+
 import user from '../data/user.json'
 import dataInf from '../data/data.json'
 import friends from '../data/friends.json'
@@ -16,9 +17,12 @@ import transactions from '../data/transactions.json'
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
+        
       />
       <Statistics title="Upload stats" stats={dataInf} />
-     <FriendList friends={friends} />
+     <FriendList friends={friends} 
+    
+      />
      <TransactionHistory items={transactions} />;
       </>)
       }
