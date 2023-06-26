@@ -1,6 +1,6 @@
 import { Profile } from './profile/Profile'
 import { Statistics } from './statistics/Statistics'
-import {FriendList} from './friends/Friends'
+import {FriendList} from './friendList/FriendsList'
 import { TransactionHistory } from './transaction/Transaction'
 
 

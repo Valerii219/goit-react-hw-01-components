@@ -1,6 +1,7 @@
+import css from './Statistics.module.css'
 export function Statistics ({ title, stats })  {
     return (
-      <section className="statistics">
+      <section className={css.statistics}>
         {title && <h2>{title}</h2>}
         <ul className="stat-list">
           {stats.map(stat => (
